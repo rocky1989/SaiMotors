@@ -1,0 +1,39 @@
+
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#" style="margin-top: 15px;">Friendsbook</a>
+		</div>
+
+		<div class="nav navbar-nav navbar-right"
+			style="margin-top: 5px; margin-right: 5px; margin-bottom: -20px;">
+
+			<form class="form" role="form" action="/FriendsBook/j_spring_security_check" method="post">
+				<div class="row">
+					<div class="form-group col-sm-4">
+						<label for="emaiId">Email</label> <input
+							class="form-control input-sm col-xs-4" id="emaiId" type="text" name='j_username'
+							required>
+						<p class="help-block">&nbsp;</p>
+					</div>
+					<div class="form-group col-sm-4">
+						<label for="password">Password</label> <input
+							class="form-control input-sm col-xs-4" id="disabledInput"
+							type="password" name='j_password'  required>
+						<p class="help-block">
+							<a style="font-size: 12px">Forgot password ?</a>
+						</p>
+					</div>
+					<div class="form-group col-sm-4">
+						<label>&nbsp;</label> <input
+							class="form-control btn btn-primary btn-xs" type="submit"
+							value="Sign In">
+					</div>
+				</div>
+
+			</form>
+
+		</div>
+
+	</div>
+</nav>
