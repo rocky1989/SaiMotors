@@ -59,6 +59,7 @@ body{
       height: 400px;
       margin: auto;
   }
+  
 h2{
 	color: #DD3333;
 }
@@ -69,5 +70,9 @@ h2{
   }
   
 .navbar-default{
-	margin-top: 5px;
+	margin-top: 2%;
+}
+
+.height100{
+	height:100%;
 }

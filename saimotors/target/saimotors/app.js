@@ -10,19 +10,14 @@
 	.config(function($stateProvider, $urlRouterProvider)
 			{
 		
-//		$urlRouterProvider.otherwise('/login');
+		$urlRouterProvider.otherwise('/home');
 		
 				$stateProvider
-					.state('login', {
-						url: '/login',
-						templateUrl:'app/partials/login.html',
-						controller:'commonController'
+					.state('home', {
+						url: '/home',
+						templateUrl:'app/partials/home.html',
+						controller:'homeController'
 								
-					})
-					.state('welcome', {
-						url: '/welcome',
-						templateUrl:'app/partials/test.html',
-						controller:'welcomeController'	
 					});
 				
 			})
